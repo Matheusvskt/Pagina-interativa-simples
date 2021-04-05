@@ -1,0 +1,103 @@
+body {
+    font-family: Helvetica, sans-serif;
+    line-height: 1.5rem;
+
+    background-size: cover;
+    margin: 0;
+    background: linear-gradient(90deg, rgb(216, 216, 216) 0%, rgb(223, 223, 223) 100%);
+}
+
+header {
+    background-color: rgb(71, 71, 71);
+    padding: 2px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+#navmenu button {
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    height: 30px;
+    padding: 0 10px;
+    background-color: inherit;
+    margin: 0;
+    font-weight: bold;
+
+}
+
+#navmenu button:hover {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+button.buttonActive {
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+.tabs section {
+    display: none;
+}
+
+section.tabActive {
+    display: block;
+}
+
+#navmenu {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+#navmenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+
+    border: 0.5px solid #504a4a;
+
+}
+
+#navmenu li {
+    margin: 1px;
+    font-family: Tahoma;
+    font-size: 15px;
+    color: white;
+    
+
+}
+
+#navmenu li {
+
+    height: 30px;
+    line-height: 25px;
+    width: 180px;
+    display: inline-block;
+
+    color: white;
+
+    text-align: center;
+}
+
+
+main {
+    background-color: #eee;
+    padding: 2% 2%;
+    border:0.5px solid rgb(7, 7, 7);
+    
+
+    width: 55%;
+    margin: 5px auto;
+}
+
+
+p { text-align: justify;
+ }
+
+ h1{
+     color: midnightblue;
+ }
